@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": "ホットトピック",
+        "description": "丸石を8つ使い、かまどを作る",
+        "icon": {
+            "id": "minecraft:furnace"
+        }
+    },
+    "parent": "more_advancements:build_pickaxe",
+    "criteria": {
+        "build_furnace": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:furnace"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "build_furnace"
+        ]
+    ]
+}
