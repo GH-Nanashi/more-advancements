@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": "いざ採掘！",
+        "description": "木材と棒を使い、木のツルハシを作る",
+        "icon": {
+            "id": "minecraft:wooden_pickaxe"
+        }
+    },
+    "parent": "more_advancements:build_crafting_table",
+    "criteria": {
+        "build_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:pickaxes"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "build_pickaxe"
+        ]
+    ]
+}
