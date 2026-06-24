@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": "木を手に入れる",
+        "description": "ブロックになるまで木を叩く",
+        "icon": {
+            "id": "minecraft:oak_log"
+        }
+    },
+    "parent": "more_advancements:classic_plus",
+    "criteria": {
+        "getting_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:logs"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "getting_wood"
+        ]
+    ]
+}

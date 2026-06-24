@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "クラシック+",
+        "description": "クラシックな実績",
+        "background": "minecraft:block/deepslate",
+        "icon": {
+            "id": "minecraft:book"
+        },
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "open_inventory": {
+            "trigger": "minecraft:tick",
+            "conditions": {}
+        }
+    },
+    "requirements": [
+        [
+            "open_inventory"
+        ]
+    ]
+}
