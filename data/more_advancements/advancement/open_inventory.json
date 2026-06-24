@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "所持品の確認",
+        "description": "インベントリを開く",
+        "background": "minecraft:item/book",
+        "icon": {
+            "id": "minecraft:book"
+        }
+    },
+    "criteria": {
+        "open_inventory": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "slots": {
+                    "occupied": 0
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "open_inventory"
+        ]
+    ]
+}
