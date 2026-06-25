@@ -6,7 +6,8 @@
         "icon": {
             "id": "minecraft:iron_ingot"
         },
-        "announce_to_chat": false
+        "announce_to_chat": false,
+        "show_toast": false
     },
     "parent": "more_advancements:build_furnace",
     "criteria": {
