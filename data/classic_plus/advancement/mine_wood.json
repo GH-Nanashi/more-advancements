@@ -1,19 +1,19 @@
 {
     "display": {
-        "title": "ホットトピック",
-        "description": "丸石を8つ使い、かまどを作る",
+        "title": "木を手に入れる",
+        "description": "ブロックになるまで木を叩く",
         "icon": {
-            "id": "minecraft:furnace"
+            "id": "minecraft:oak_log"
         }
     },
-    "parent": "more_advancements:build_pickaxe",
+    "parent": "classic_plus:classic_plus",
     "criteria": {
-        "build_furnace": {
+        "getting_wood": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:furnace"
+                        "items": "#minecraft:logs"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
     },
     "requirements": [
         [
-            "build_furnace"
+            "getting_wood"
         ]
     ]
 }

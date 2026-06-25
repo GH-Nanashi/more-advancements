@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "オーバーワールド",
+        "description": "オーバーワールドに関する進捗",
+        "background": "minecraft:block/grass_block_top",
+        "icon": {
+            "id": "minecraft:grass_block"
+        },
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "auto_unlock": {
+            "trigger": "minecraft:tick",
+            "conditions": {}
+        }
+    },
+    "requirements": [
+        [
+            "auto_unlock"
+        ]
+    ]
+}

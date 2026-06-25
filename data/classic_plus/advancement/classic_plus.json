@@ -9,14 +9,14 @@
         "announce_to_chat": false
     },
     "criteria": {
-        "open_inventory": {
+        "auto_unlock": {
             "trigger": "minecraft:tick",
             "conditions": {}
         }
     },
     "requirements": [
         [
-            "open_inventory"
+            "auto_unlock"
         ]
     ]
 }

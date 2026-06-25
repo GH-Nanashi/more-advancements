@@ -1,19 +1,19 @@
 {
     "display": {
-        "title": "木を手に入れる",
-        "description": "ブロックになるまで木を叩く",
+        "title": "いざ農業！",
+        "description": "木材と棒を使い、木のクワを作る",
         "icon": {
-            "id": "minecraft:oak_log"
+            "id": "minecraft:wooden_hoe"
         }
     },
-    "parent": "more_advancements:classic_plus",
+    "parent": "classic_plus:build_crafting_table",
     "criteria": {
-        "getting_wood": {
+        "build_hoe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:logs"
+                        "items": "#minecraft:hoes"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
     },
     "requirements": [
         [
-            "getting_wood"
+            "build_hoe"
         ]
     ]
 }

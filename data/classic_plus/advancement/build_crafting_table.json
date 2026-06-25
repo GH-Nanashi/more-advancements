@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": "土台作り",
+        "description": "木材を4つ使い、作業台を作る",
+        "icon": {
+            "id": "minecraft:crafting_table"
+        }
+    },
+    "parent": "classic_plus:mine_wood",
+    "criteria": {
+        "build_crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crafting_table"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "build_crafting_table"
+        ]
+    ]
+}
