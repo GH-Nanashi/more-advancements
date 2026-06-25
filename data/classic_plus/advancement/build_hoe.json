@@ -1,7 +1,7 @@
 {
     "display": {
-        "title": "いざ採掘！",
-        "description": "木材と棒を使い、木のツルハシを作る",
+        "title": "いざ農業！",
+        "description": "木材と棒を使い、木のクワを作る",
         "icon": {
             "id": "minecraft:wooden_hoe"
         }
