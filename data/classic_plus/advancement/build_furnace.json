@@ -6,7 +6,7 @@
             "id": "minecraft:furnace"
         }
     },
-    "parent": "more_advancements:build_pickaxe",
+    "parent": "classic_plus:build_pickaxe",
     "criteria": {
         "build_furnace": {
             "trigger": "minecraft:inventory_changed",

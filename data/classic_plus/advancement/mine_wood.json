@@ -6,7 +6,7 @@
             "id": "minecraft:oak_log"
         }
     },
-    "parent": "more_advancements:classic_plus",
+    "parent": "classic_plus:classic_plus",
     "criteria": {
         "getting_wood": {
             "trigger": "minecraft:inventory_changed",

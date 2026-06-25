@@ -3,17 +3,17 @@
         "title": "いざ採掘！",
         "description": "木材と棒を使い、木のツルハシを作る",
         "icon": {
-            "id": "minecraft:wooden_pickaxe"
+            "id": "minecraft:wooden_hoe"
         }
     },
-    "parent": "more_advancements:build_crafting_table",
+    "parent": "classic_plus:build_crafting_table",
     "criteria": {
-        "build_pickaxe": {
+        "build_hoe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:pickaxes"
+                        "items": "#minecraft:hoes"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
     },
     "requirements": [
         [
-            "build_pickaxe"
+            "build_hoe"
         ]
     ]
 }

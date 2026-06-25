@@ -1,19 +1,19 @@
 {
     "display": {
-        "title": "土台作り",
-        "description": "木材を4つ使い、作業台を作る",
+        "title": "いざ採掘！",
+        "description": "木材と棒を使い、木のツルハシを作る",
         "icon": {
-            "id": "minecraft:crafting_table"
+            "id": "minecraft:wooden_pickaxe"
         }
     },
-    "parent": "more_advancements:mine_wood",
+    "parent": "classic_plus:build_crafting_table",
     "criteria": {
-        "build_crafting_table": {
+        "build_pickaxe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:crafting_table"
+                        "items": "#minecraft:pickaxes"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
     },
     "requirements": [
         [
-            "build_crafting_table"
+            "build_pickaxe"
         ]
     ]
 }
