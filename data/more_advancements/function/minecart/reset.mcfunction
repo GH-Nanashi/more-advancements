@@ -1,0 +1,14 @@
+scoreboard players reset @s ma_cart
+scoreboard players reset @s ma_x
+scoreboard players reset @s ma_y
+scoreboard players reset @s ma_z
+scoreboard players reset @s ma_px
+scoreboard players reset @s ma_py
+scoreboard players reset @s ma_pz
+scoreboard players reset @s ma_sx
+scoreboard players reset @s ma_sy
+scoreboard players reset @s ma_sz
+scoreboard players reset @s ma_dx
+scoreboard players reset @s ma_dy
+scoreboard players reset @s ma_dz
+scoreboard players reset @s ma_dist

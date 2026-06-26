@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": "美味しい魚",
+        "description": "鱈、または鮭を釣って焼く",
+        "icon": {
+            "id": "minecraft:cooked_cod"
+        }
+    },
+    "parent": "classic_plus:build_furnace",
+    "criteria": {
+        "cook_cod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cooked_cod"
+                    }
+                ]
+            }
+        },
+        "cook_salmon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cooked_salmon"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cook_cod",
+            "cook_salmon"
+        ]
+    ]
+}

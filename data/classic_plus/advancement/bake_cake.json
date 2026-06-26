@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": "ケーキは嘘だ",
+        "description": "小麦に砂糖、牛乳、それから卵！",
+        "icon": {
+            "id": "minecraft:cake"
+        }
+    },
+    "parent": "classic_plus:build_hoe",
+    "criteria": {
+        "make_cake": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cake"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "make_cake"
+        ]
+    ]
+}

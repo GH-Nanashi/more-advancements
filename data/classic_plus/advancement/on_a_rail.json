@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": "世界のトロッコから",
+        "description": "トロッコに乗って出発地点から1km以上走行する",
+        "icon": {
+            "id": "minecraft:minecart"
+        }
+    },
+    "parent": "classic_plus:acquire_iron",
+    "criteria": {
+        "on_a_rail": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "on_a_rail"
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": "アンデッド病院",
+        "description": "ゾンビまたはスケルトンに負傷のポーションを投げる",
+        "icon": {
+            "id": "minecraft:zombie_head"
+        }
+    },
+    "parent": "overworld_ma:overworld_ma",
+    "criteria": {
+        "throw_harming_potion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "throw_harming_potion"
+        ]
+    ]
+}
