@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": "パンを焼く",
+        "description": "小麦からパンを作る",
+        "icon": {
+            "id": "minecraft:bread"
+        }
+    },
+    "parent": "classic_plus:build_hoe",
+    "criteria": {
+        "make_bread": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bread"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "make_bread"
+        ]
+    ]
+}
