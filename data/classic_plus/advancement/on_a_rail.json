@@ -4,7 +4,8 @@
         "description": "トロッコに乗って出発地点から1km以上走行する",
         "icon": {
             "id": "minecraft:minecart"
-        }
+        },
+        "frame": "challenge"
     },
     "parent": "classic_plus:acquire_iron",
     "criteria": {
@@ -16,5 +17,8 @@
         [
             "on_a_rail"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
 }
