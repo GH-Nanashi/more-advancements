@@ -1,22 +1,22 @@
 {
     "display": {
-        "title": "金属を手に入れる",
-        "description": "鉄鉱石を製錬し、鉄を手に入れる",
+        "title": "ダイヤモンド！",
+        "description": "鉄の道具を使ってダイヤモンドを手に入れる",
         "icon": {
-            "id": "minecraft:iron_ingot"
+            "id": "minecraft:diamond_ore"
         },
         "announce_to_chat": false,
         "show_toast": false
     },
-    "parent": "classic_plus:build_furnace",
+    "parent": "classic_plus:acquire_iron",
     "criteria": {
-        "acquire_iron": {
-            "trigger": "tick",
+        "diamonds": {
+            "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
                     "type_specific/player": {
                         "advancements": {
-                            "story/smelt_iron": true
+                            "story/mine_diamond": true
                         }
                     }
                 }
@@ -25,7 +25,7 @@
     },
     "requirements": [
         [
-            "acquire_iron"
+            "diamonds"
         ]
     ]
 }

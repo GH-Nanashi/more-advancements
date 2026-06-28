@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": "不思議なテーブル",
+        "description": "本、黒曜石、ダイヤモンドを使ってエンチャントテーブルを作る",
+        "icon": {
+            "id": "minecraft:enchanting_table"
+        }
+    },
+    "parent": "classic_plus:diamonds",
+    "criteria": {
+        "enchantments": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:enchanting_table"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enchantments"
+        ]
+    ]
+}

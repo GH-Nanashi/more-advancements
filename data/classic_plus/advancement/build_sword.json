@@ -1,19 +1,19 @@
 {
     "display": {
-        "title": "いざ農業！",
-        "description": "板材と棒を使い、木のクワを作る",
+        "title": "いざ突撃！",
+        "description": "板材と棒を使い、剣を作る",
         "icon": {
-            "id": "minecraft:wooden_hoe"
+            "id": "minecraft:wooden_sword"
         }
     },
     "parent": "classic_plus:build_crafting_table",
     "criteria": {
-        "build_hoe": {
+        "build_sword": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:hoes"
+                        "items": "#minecraft:swords"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
     },
     "requirements": [
         [
-            "build_hoe"
+            "build_sword"
         ]
     ]
 }

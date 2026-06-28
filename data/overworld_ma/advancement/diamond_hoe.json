@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": "そこにダイヤがあったから…",
+        "description": "ダイヤモンドのクワを作る",
+        "icon": {
+            "id": "minecraft:diamond_hoe"
+        }
+    },
+    "parent": "overworld_ma:overworld_ma",
+    "criteria": {
+        "crafting_diamond_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_hoe"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "crafting_diamond_hoe"
+        ]
+    ]
+}
