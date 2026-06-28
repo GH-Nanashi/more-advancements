@@ -1,19 +1,19 @@
 {
     "display": {
-        "title": "いざ農業！",
-        "description": "板材と棒を使い、木のクワを作る",
+        "title": "牛転がし",
+        "description": "革を手に入れる",
         "icon": {
-            "id": "minecraft:wooden_hoe"
+            "id": "minecraft:leather"
         }
     },
-    "parent": "classic_plus:build_crafting_table",
+    "parent": "classic_plus:build_sword",
     "criteria": {
-        "build_hoe": {
+        "kill_cow": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:hoes"
+                        "items": "minecraft:leather"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
     },
     "requirements": [
         [
-            "build_hoe"
+            "kill_cow"
         ]
     ]
 }

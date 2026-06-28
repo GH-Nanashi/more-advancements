@@ -3,7 +3,7 @@
         "title": "略奪者",
         "description": "行商人を殺害する",
         "icon": {
-            "id": "minecraft:netherite_sword"
+            "id": "minecraft:diamond_sword"
         }
     },
     "parent": "overworld_ma:the_rebel",

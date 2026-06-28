@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": "やり過ぎ",
+        "description": "一撃でハート9個分のダメージを与える",
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:diamond_sword"
+        }
+    },
+    "parent": "classic_plus:enchantments",
+    "criteria": {
+        "overkill": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "dealt": {
+                        "min": 18.0
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 25
+    },
+    "requirements": [
+        [
+            "overkill"
+        ]
+    ]
+}

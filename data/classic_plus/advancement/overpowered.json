@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": "圧倒的な力",
+        "description": "ノッチリンゴを食べる",
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:enchanted_golden_apple"
+        }
+    },
+    "parent": "classic_plus:build_crafting_table",
+    "rewards": {
+        "experience": 100
+    },
+    "criteria": {
+        "overpowred": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:enchanted_golden_apple"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "overpowred"
+        ]
+    ]
+}

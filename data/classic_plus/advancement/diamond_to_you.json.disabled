@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": "ダイヤモンドをあなたに！",
+        "description": "他のプレイヤーにダイヤモンドを投げる",
+        "icon": {
+            "id": "minecraft:diamond"
+        }
+    },
+    "parent": "classic_plus:diamonds",
+    "criteria": {
+        "diamond_to_you": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:diamond"
+                },
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "entity_type": "minecraft:player"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "diamond_to_you"
+        ]
+    ]
+}

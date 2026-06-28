@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "種の繁栄",
+        "description": "2頭のウシまたは2頭のムーシュルームを繁殖させる。",
+        "icon": {
+            "id": "minecraft:wheat"
+        }
+    },
+    "parent": "classic_plus:kill_cow",
+    "criteria": {
+        "bread_cow": {
+            "trigger": "bred_animals",
+            "conditions": {
+                "child": {
+                    "entity_type": "minecraft:cow"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bread_cow"
+        ]
+    ]
+}

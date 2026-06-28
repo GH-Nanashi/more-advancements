@@ -1,19 +1,19 @@
 {
     "display": {
-        "title": "いざ農業！",
-        "description": "板材と棒を使い、木のクワを作る",
+        "title": "司書",
+        "description": "本と板材を使い、本棚を作る",
         "icon": {
-            "id": "minecraft:wooden_hoe"
+            "id": "minecraft:bookshelf"
         }
     },
-    "parent": "classic_plus:build_crafting_table",
+    "parent": "classic_plus:enchantments",
     "criteria": {
-        "build_hoe": {
+        "bookcase": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:hoes"
+                        "items": "minecraft:bookshelf"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
     },
     "requirements": [
         [
-            "build_hoe"
+            "bookcase"
         ]
     ]
 }

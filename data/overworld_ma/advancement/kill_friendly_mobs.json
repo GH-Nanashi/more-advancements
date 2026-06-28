@@ -1,0 +1,414 @@
+{
+    "display": {
+        "title": "虐殺者",
+        "description": "全ての友好的なモブを倒す",
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:netherite_sword"
+        }
+    },
+    "parent": "overworld_ma:the_plunderer",
+    "rewards": {
+        "experience": 100
+    },
+    "criteria": {
+        "land_allay": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:allay"
+                }
+            }
+        },
+        "land_armadillo": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:armadillo"
+                }
+            }
+        },
+        "land_bat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:bat"
+                }
+            }
+        },
+        "land_camel": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:camel"
+                }
+            }
+        },
+        "land_camel_husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:camel_husk"
+                }
+            }
+        },
+        "land_cat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:cat"
+                }
+            }
+        },
+        "land_chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:chicken"
+                }
+            }
+        },
+        "land_cow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:cow"
+                }
+            }
+        },
+        "land_donkey": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:donkey"
+                }
+            }
+        },
+        "land_frog": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:frog"
+                }
+            }
+        },
+        "land_horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse"
+                }
+            }
+        },
+        "land_mooshroom": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:mooshroom"
+                }
+            }
+        },
+        "land_mule": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:mule"
+                }
+            }
+        },
+        "land_ocelot": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:ocelot"
+                }
+            }
+        },
+        "land_parrot": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:parrot"
+                }
+            }
+        },
+        "land_pig": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:pig"
+                }
+            }
+        },
+        "land_rabbit": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:rabbit"
+                }
+            }
+        },
+        "land_sheep": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep"
+                }
+            }
+        },
+        "land_skeleton_horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:skeleton_horse"
+                }
+            }
+        },
+        "land_sniffer": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sniffer"
+                }
+            }
+        },
+        "land_snow_golem": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:snow_golem"
+                }
+            }
+        },
+        "land_villager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:villager"
+                }
+            }
+        },
+        "land_wandering_trader": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wandering_trader"
+                }
+            }
+        },
+        "land_zombie_horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:zombie_horse"
+                }
+            }
+        },
+        "water_axolotl": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:axolotl"
+                }
+            }
+        },
+        "water_cod": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:cod"
+                }
+            }
+        },
+        "water_glow_squid": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:glow_squid"
+                }
+            }
+        },
+        "water_salmon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:salmon"
+                }
+            }
+        },
+        "water_squid": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:squid"
+                }
+            }
+        },
+        "water_tadpole": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:tadpole"
+                }
+            }
+        },
+        "water_tropical_fish": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:tropical_fish"
+                }
+            }
+        },
+        "water_turtle": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:turtle"
+                }
+            }
+        },
+        "utility_copper_golem": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:copper_golem"
+                }
+            }
+        },
+        "utility_happy_ghast": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:happy_ghast"
+                }
+            }
+        },
+        "utility_sulfur_cube": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sulfur_cube"
+                }
+            }
+        },
+        "nether_strider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:strider"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "land_allay"
+        ],
+        [
+            "land_armadillo"
+        ],
+        [
+            "land_bat"
+        ],
+        [
+            "land_camel"
+        ],
+        [
+            "land_camel_husk"
+        ],
+        [
+            "land_cat"
+        ],
+        [
+            "land_chicken"
+        ],
+        [
+            "land_cow"
+        ],
+        [
+            "land_donkey"
+        ],
+        [
+            "land_frog"
+        ],
+        [
+            "land_horse"
+        ],
+        [
+            "land_mooshroom"
+        ],
+        [
+            "land_mule"
+        ],
+        [
+            "land_ocelot"
+        ],
+        [
+            "land_parrot"
+        ],
+        [
+            "land_pig"
+        ],
+        [
+            "land_rabbit"
+        ],
+        [
+            "land_sheep"
+        ],
+        [
+            "land_skeleton_horse"
+        ],
+        [
+            "land_sniffer"
+        ],
+        [
+            "land_snow_golem"
+        ],
+        [
+            "land_villager"
+        ],
+        [
+            "land_wandering_trader"
+        ],
+        [
+            "land_zombie_horse"
+        ],
+        [
+            "water_axolotl"
+        ],
+        [
+            "water_cod"
+        ],
+        [
+            "water_glow_squid"
+        ],
+        [
+            "water_salmon"
+        ],
+        [
+            "water_squid"
+        ],
+        [
+            "water_tadpole"
+        ],
+        [
+            "water_tropical_fish"
+        ],
+        [
+            "water_turtle"
+        ],
+        [
+            "utility_copper_golem"
+        ],
+        [
+            "utility_happy_ghast"
+        ],
+        [
+            "utility_sulfur_cube"
+        ],
+        [
+            "nether_strider"
+        ]
+    ]
+}

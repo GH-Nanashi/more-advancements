@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": "心からの献身",
+        "description": "ダイヤモンドのクワを使い切り、己の人生の選択について考え直す",
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:diamond_hoe"
+        },
+        "hidden": true
+    },
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "classic_plus:build_hoe",
+    "criteria": {
+        "break_diamond_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:diamond_hoe",
+                    "components": {
+                        "damage": 1560
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "break_diamond_hoe"
+        ]
+    ]
+}

@@ -3,7 +3,7 @@
         "title": "反逆者",
         "description": "村人を殺害する",
         "icon": {
-            "id": "minecraft:diamond_sword"
+            "id": "minecraft:iron_sword"
         }
     },
     "parent": "overworld_ma:overworld_ma",

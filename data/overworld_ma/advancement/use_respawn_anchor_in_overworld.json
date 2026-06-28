@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": "好奇心は猫をも殺す",
+        "description": "オーバーワールドで「ゲームの仕様」によって殺される",
+        "icon": {
+            "id": "minecraft:respawn_anchor"
+        }
+    },
+    "parent": "overworld_ma:overworld_ma",
+    "criteria": {
+        "crafting_diamond_hoe": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "is_explosion",
+                                "expected": true
+                            },
+                            {
+                                "id": "panic_causes",
+                                "expected": false
+                            }
+                        ]
+                    }
+                },
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "crafting_diamond_hoe"
+        ]
+    ]
+}
